@@ -1,0 +1,1 @@
+https://acervolima.com/como-usar-o-flask-session-no-python-flask/

@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block y %}
+   {% if session.username %}
+      <p>Você esta registrado a {{ session.username }}. <a href="/logout">Logout</a>.</p>
+   {% else %}
+      <p>você não esta logado. <a href="/login">Login</a>.</p>
+   {% endif %}
+{% endblock %}

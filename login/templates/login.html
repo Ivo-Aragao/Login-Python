@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block y %}
+   <h1>Login</h1>
+   <form action="/login" method="POST">
+      <input placeholder="Username" autocomplete="off" type="text" name="username">
+      <input placeholder="Password" type="password" name="password">
+      <input type="submit" value="Login">
+   </form>
+   <p>ainda não tem uma conta? <a href="/register">Registre usuario aqui</a></p>
+{% endblock %}
